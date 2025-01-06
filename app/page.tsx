@@ -7,8 +7,7 @@ export default function Page() {
         Jônatas Quirino
       </h1>
       <p className="mb-4">
-        {`Seguidor de Cristo, marido da Vic, pai de Eva e desenvolvedor de software. Entusiasta de tecnologia, economia e filosofia antiga, mergulho nos insights do pensamento reformado e estóico. 
-        Minha curiosidade impulsiona escritos que abrangem áreas que exploram como princípios atemporais influenciam e dão sentido à vida moderna :)`}
+        {`Amigo de Cristo, marido da Vic & pai de Eva. Vivendo com autencidade.`}
       </p>
       <div className="my-8">
         <BlogPosts />
