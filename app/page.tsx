@@ -7,7 +7,7 @@ export default function Page() {
         Jônatas Quirino
       </h1>
       <p className="mb-4">
-        {`Amigo de Cristo, marido da Vic & pai de Eva. Vivendo com autencidade.`}
+        {`Cristão católico-reformado, marido da Vic & pai de Eva. Sintetizo as minhas curiosidades em design minimalista, softwares e textos.`}
       </p>
       <div className="my-8">
         <BlogPosts />
