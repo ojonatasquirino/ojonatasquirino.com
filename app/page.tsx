@@ -8,7 +8,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`Amigo de Cristo, marido da Vic & pai de Eva.
-        Sintetizo a minha mente em design minimalista, softwares e textos.`}
+        Sintetizo o meu cérebro em design minimalista, criação de software e textos.`}
       </p>
       <div className="my-8">
         <BlogPosts />
