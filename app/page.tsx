@@ -7,7 +7,7 @@ export default function Page() {
         Jônatas Quirino
       </h1>
       <p className="mb-4">
-        {`Sintetizo o meu cérebro criando design minimalista, escrevendo software e artigos.`}
+        {`Sintetizo o meu cérebro criando design mínimo, escrevendo software e artigos.`}
       </p>
       <div className="my-8">
         <BlogPosts />
