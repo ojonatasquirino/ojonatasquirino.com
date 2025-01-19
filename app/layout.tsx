@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     default: "ojonatasquirino",
     template: "%s | ojonatasquirino",
   },
-  description: "This is my portfolio.",
+  description: "Escritos • Jônatas Quirino.",
   openGraph: {
     title: "Jônatas Quirino",
-    description: "This is Jônatas Quirino.",
+    description: "Escritos • Jônatas Quirino.",
     url: baseUrl,
     siteName: "Jônatas Quirino",
-    locale: "en_US",
+    locale: "pt-br",
     type: "website",
   },
   robots: {
@@ -45,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="pt-br"
       className={cx(
         "text-black bg-white dark:text-white dark:bg-black",
         GeistSans.variable,
