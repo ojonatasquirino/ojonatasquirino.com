@@ -8,13 +8,13 @@ export default function Page() {
         alt="Avatar de Jônatas Quirino"
         className="w-16 h-16 rounded-full mb-4" // 24x24 é um tamanho padrão para avatares
       />
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-6 text-2xl font-semibold tracking-tighter">
         Jônatas Quirino
       </h1>
-      <p className="mb-4">
+      <p className="mb-1">
         {`Sintetizo o meu cérebro criando design mínimo, escrevendo software e artigos.`}
       </p>
-      <div className="my-8">
+      <div className="my-4">
         <BlogPosts />
       </div>
     </section>
