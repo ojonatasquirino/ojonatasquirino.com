@@ -12,7 +12,7 @@ export default function Page() {
         Jônatas Quirino
       </h1>
       <p className="mb-1">
-        {`Sintetizo o meu cérebro criando design mínimo, escrevendo software e artigos.`}
+        {`Sintetizo o meu cérebro com  design mínimo, software e escrita.`}
       </p>
       <div className="my-4">
         <BlogPosts />

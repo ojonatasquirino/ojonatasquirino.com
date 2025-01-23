@@ -24,21 +24,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/ojonatasquirino"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
             href="https://instagram.com/ojonatasquirino"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">instagram</p>
+            <p className="ml-2 h-7">Instagram</p>
           </a>
         </li>
         <li>
@@ -49,7 +38,7 @@ export default function Footer() {
             href="https://threads.net/ojonatasquirino"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">threads</p>
+            <p className="ml-2 h-7">Threads</p>
           </a>
         </li>
       </ul>
