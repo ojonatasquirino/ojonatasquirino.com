@@ -12,7 +12,7 @@ export default function Page() {
         Jônatas Quirino
       </h1>
       <p className="mb-1">
-        {`Amigo de Cristo, marido de Vic e pai de Eva. Nas horas vagas, sintetizo o meu cérebro criando design mínimo, escrevendo software e percepções.`}
+        {`Amigo de Cristo, marido de Vic e pai de Eva. Sintetizo o meu cérebro criando design mínimo, escrevendo software e percepções.`}
       </p>
       <div className="my-4">
         <BlogPosts />
