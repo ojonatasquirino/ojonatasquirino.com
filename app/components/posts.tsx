@@ -1,20 +1,18 @@
 import Link from "next/link";
 import { formatDate, getBlogPosts } from "app/blog/utils";
 
-export function BlogPosts() {
+export function BlogPosts({ limit }: { limit?: number }) {
   let allBlogs = getBlogPosts();
 
   return (
     <div>
       {allBlogs
-        .sort((a, b) => {
-          if (
-            new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)
-          ) {
-            return -1;
-          }
-          return 1;
-        })
+        .sort(
+          (a, b) =>
+            new Date(b.metadata.publishedAt).getTime() -
+            new Date(a.metadata.publishedAt).getTime()
+        )
+        .slice(0, limit || allBlogs.length) // Se houver 'limit', exibe apenas essa quantidade, senão exibe tudo
         .map((post) => (
           <Link
             key={post.slug}

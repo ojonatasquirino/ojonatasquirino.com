@@ -14,10 +14,9 @@ export default function Page() {
       <p className="mb-3">
         {`Sintetizo o meu cérebro criando design mínimo, escrevendo software e percepções.`}
       </p>
-      <h3 className="mb-6 text-xl tracking-tighter"> Recentes ⇣ </h3>
 
       <div className="my-4">
-        <BlogPosts />
+        <BlogPosts limit={3} /> {/* Apenas os 3 mais recentes */}
       </div>
     </section>
   );
