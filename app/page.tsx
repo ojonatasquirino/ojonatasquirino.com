@@ -6,8 +6,9 @@ export default function Page() {
       <img
         src="/avatar.jpg"
         alt="Avatar de Jônatas Quirino"
-        className="w-16 h-16 rounded-full mb-4"
+        className="w-16 h-16 rounded-full mb-4 transition-transform duration-600 hover:rotate-6"
       />
+
       <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
         Jônatas Quirino
       </h1>
