@@ -27,7 +27,7 @@ export default function Page() {
           {
             title: "ojonatasquirino.com",
             description:
-              "Site mínimo que contém meus escritos, designs e aplicações de software.",
+              "Construção deste software. Clone com comandos git ou contribua.",
             tags: ["React", "NextJS", "Tailwind", "MDX"],
             link: "https://github.com/ojonatasquirino/ojonatasquirino.com",
           },
