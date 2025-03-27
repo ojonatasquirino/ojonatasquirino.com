@@ -34,10 +34,10 @@ export default function Page() {
         ].map((project, index) => (
           <div
             key={index}
-            className="border border-gray-300 dark:border-gray-700 rounded-xl p-4 shadow-sm hover:shadow-md transition bg-white dark:bg-gray-900"
+            className="border border-gray-300 dark:border-gray-700 rounded-xl p-4 shadow-sm hover:shadow-md transition bg-white dark:bg-white"
           >
-            <div className="h-32 bg-white dark:bg-gray-800 rounded-md flex items-center justify-center text-gray-400">
-              <div className="h-32 bg-white dark:bg-gray-800 rounded-md flex items-center justify-center overflow-hidden">
+            <div className="h-32 bg-white dark:bg-gray-800 rounded-md flex items-center justify-center text-gray-200">
+              <div className="h-32 bg-white dark:bg-black rounded-md flex items-center justify-center overflow-hidden">
                 <img
                   src="/brain.png"
                   alt="brain"
