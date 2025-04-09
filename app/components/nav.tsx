@@ -7,9 +7,6 @@ const navItems = {
   "/blog": {
     name: "escritos",
   },
-  "/projetos": {
-    name: "projetos",
-  },
 };
 
 export function Navbar() {
