@@ -13,7 +13,8 @@ export default function Page() {
       <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
         Jônatas Quirino
       </h1>
-      <p className="mb-3">{` `}</p>
+      <p className="mb-3">{`Destilo o meu cérebro construindo softwares úteis, design mínimo e percepções autênticas.
+ `}</p>
       <div className="my-4">
         <BlogPosts limit={4} /> {/* Apenas os 4 artigos mais recentes */}
       </div>
