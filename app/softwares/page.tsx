@@ -33,7 +33,7 @@ const projects = [
       "Análise de reserva de emergência, meta de patrimônio milionário e investimento de renda fixa.",
     tags: ["NextJS", "TypeScript", "TailwindCSS"],
     link: "https://github.com/ojonatasquirino/financeira-inteligente",
-    deploy: "#",
+    deploy: "https://financeira-inteligente.vercel.app/",
   },
 ];
 
